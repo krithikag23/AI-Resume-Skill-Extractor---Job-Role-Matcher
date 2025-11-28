@@ -103,3 +103,6 @@ def read_pdf(file) -> str:
     except Exception as e:
         st.error(f"Error reading PDF: {e}")
         return ""
+    
+def normalize_text(text: str) -> str:
+    return text.lower()    
