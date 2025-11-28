@@ -84,3 +84,6 @@ ROLE_SKILLS = {
         "mobile testing"
     ],
 }
+
+# Flatten global skill vocabulary for detection
+GLOBAL_SKILLS = sorted({s.lower() for skills in ROLE_SKILLS.values() for s in skills})
