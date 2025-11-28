@@ -236,7 +236,7 @@ if uploaded_file or use_sample:
         col1, col2 = st.columns([2, 1])
 
         with col1:
-            st.markdown("**Role Match Scores (for screenshots)**")
+            st.markdown("**Role Match Scores **")
             fig = px.bar(
                 filtered_df,
                 x="Role",
