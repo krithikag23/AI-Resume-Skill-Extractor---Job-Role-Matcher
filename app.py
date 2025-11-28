@@ -141,4 +141,14 @@ def compute_role_similarity(resume_skills, roles, role_docs):
     role_vecs = tfidf_matrix[1:]
 
     sims = cosine_similarity(resume_vec, role_vecs).flatten()
-    return sims        
+    return sims
+
+
+# ---------------- SIDEBAR ----------------
+
+st.sidebar.header("Upload & Settings")
+
+uploaded_file = st.sidebar.file_uploader(
+    "Upload your resume (.pdf or .txt)",
+    type=["pdf", "txt"]
+)
