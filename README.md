@@ -12,4 +12,5 @@ An interactive **Streamlit** app that:
 3. Full Stack Developer 
 4. Frontend Engineer 
 5. Backend Engineer
-6. Cloud / DevOps Engineer  
+6. Cloud / DevOps Engineer
+7. AI Researcher  
