@@ -15,3 +15,4 @@ An interactive **Streamlit** app that:
 6. Cloud / DevOps Engineer
 7. AI Researcher
 8. Business Analyst  
+9. Cybersecurity Analyst
