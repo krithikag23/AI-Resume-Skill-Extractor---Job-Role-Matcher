@@ -13,4 +13,5 @@ An interactive **Streamlit** app that:
 4. Frontend Engineer 
 5. Backend Engineer
 6. Cloud / DevOps Engineer
-7. AI Researcher  
+7. AI Researcher
+8. Business Analyst  
