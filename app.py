@@ -126,4 +126,19 @@ def build_role_corpus(role_skills_dict):
     for role, skills in role_skills_dict.items():
         roles.append(role)
         docs.append(" ".join(skills))
-    return roles, docs    
+    return roles, docs
+
+def compute_role_similarity(resume_skills, roles, role_docs):
+    """
+    Fit a TF-IDF model on [resume_doc] + role_docs and compute cosine similarity.
+    """
+    resume_doc = " ".join(resume_skills) if resume_skills else ""
+    corpus = [resume_doc] + role_docs  # index 0 = resume
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform(corpus)
+
+    resume_vec = tfidf_matrix[0:1]
+    role_vecs = tfidf_matrix[1:]
+
+    sims = cosine_similarity(resume_vec, role_vecs).flatten()
+    return sims        
