@@ -87,3 +87,19 @@ ROLE_SKILLS = {
 
 # Flatten global skill vocabulary for detection
 GLOBAL_SKILLS = sorted({s.lower() for skills in ROLE_SKILLS.values() for s in skills})
+
+# ---------------- HELPERS ----------------
+
+def read_pdf(file) -> str:
+    if PyPDF2 is None:
+        st.warning("PyPDF2 is not installed. Please install it or upload a .txt file.")
+        return ""
+    try:
+        reader = PyPDF2.PdfReader(file)
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() + "\n"
+        return text
+    except Exception as e:
+        st.error(f"Error reading PDF: {e}")
+        return ""
