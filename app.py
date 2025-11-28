@@ -115,4 +115,15 @@ def extract_skills_from_text(text: str, skill_vocab=None):
     for skill in skill_vocab:
         if skill in text_low:
             found.add(skill)
-    return sorted(found)    
+    return sorted(found)
+
+def build_role_corpus(role_skills_dict):
+    """
+    Build a small text corpus: one document per role, consisting of its skills.
+    """
+    roles = []
+    docs = []
+    for role, skills in role_skills_dict.items():
+        roles.append(role)
+        docs.append(" ".join(skills))
+    return roles, docs    
