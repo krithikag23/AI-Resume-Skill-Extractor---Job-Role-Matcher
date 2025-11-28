@@ -7,3 +7,4 @@ An interactive **Streamlit** app that:
 
 
 ## Supported Roles
+1. Data Scientist 
