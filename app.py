@@ -105,4 +105,14 @@ def read_pdf(file) -> str:
         return ""
     
 def normalize_text(text: str) -> str:
-    return text.lower()    
+    return text.lower()
+
+def extract_skills_from_text(text: str, skill_vocab=None):
+    if skill_vocab is None:
+        skill_vocab = GLOBAL_SKILLS
+    text_low = text.lower()
+    found = set()
+    for skill in skill_vocab:
+        if skill in text_low:
+            found.add(skill)
+    return sorted(found)    
