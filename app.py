@@ -152,3 +152,14 @@ uploaded_file = st.sidebar.file_uploader(
     "Upload your resume (.pdf or .txt)",
     type=["pdf", "txt"]
 )
+
+
+use_sample = st.sidebar.checkbox("Use sample resume text", value=not bool(uploaded_file))
+
+min_skill_threshold = st.sidebar.slider(
+    "Minimum number of skills to consider a match",
+    min_value=0,
+    max_value=20,
+    value=5,
+    step=1
+)
