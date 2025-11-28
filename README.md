@@ -9,3 +9,4 @@ An interactive **Streamlit** app that:
 ## Supported Roles
 1. Data Scientist 
 2. Machine Learning Engineer  
+3. Full Stack Developer 
