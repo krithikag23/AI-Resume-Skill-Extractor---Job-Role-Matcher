@@ -282,3 +282,5 @@ if uploaded_file or use_sample:
                 st.write(", ".join(missing))
             else:
                 st.write("You already list most skills for this role!")
+else:
+    st.info("Upload a resume (.pdf or .txt) or enable **'Use sample resume text'** from the sidebar to begin.")                
