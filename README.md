@@ -25,3 +25,5 @@ An interactive **Streamlit** app that:
 
 2. **Role Profiles**
       - Each job role has a curated list of core skills (our built-in "dataset").
+
+3. **NLP Similarity Model** 
