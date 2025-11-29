@@ -35,4 +35,5 @@ An interactive **Streamlit** app that:
 
 4. **Dashboard**
       - Bar chart of similarity scores for all roles
-      - Table with similarity and matched skill counts 
+      - Table with similarity and matched skill counts
+      - Role-wise breakdown of:
