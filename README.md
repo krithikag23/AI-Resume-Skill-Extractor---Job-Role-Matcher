@@ -34,4 +34,5 @@ An interactive **Streamlit** app that:
       - **Cosine similarity** is computed between the resume vector and each role vector.
 
 4. **Dashboard**
-      - Bar chart of similarity scores for all roles 
+      - Bar chart of similarity scores for all roles
+      - Table with similarity and matched skill counts 
