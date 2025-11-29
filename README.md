@@ -33,4 +33,5 @@ An interactive **Streamlit** app that:
       - A **TF-IDF Vectorizer** is trained on this corpus.
       - **Cosine similarity** is computed between the resume vector and each role vector.
 
-4. **Dashboard**  
+4. **Dashboard**
+      - Bar chart of similarity scores for all roles 
