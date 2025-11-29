@@ -38,3 +38,4 @@ An interactive **Streamlit** app that:
       - Table with similarity and matched skill counts
       - Role-wise breakdown of:
          - Skills already present in the resume
+         - Recommended skills to add or highlight
