@@ -17,3 +17,6 @@ An interactive **Streamlit** app that:
 8. Business Analyst  
 9. Cybersecurity Analyst
 10. Mobile App Developer  
+
+
+## How It Works
