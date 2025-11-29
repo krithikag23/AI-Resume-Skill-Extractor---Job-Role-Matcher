@@ -31,4 +31,5 @@ An interactive **Streamlit** app that:
           - One document for the resume (extracted skills)
           - One document per role (its skill list)
       - A **TF-IDF Vectorizer** is trained on this corpus.
+      - **Cosine similarity** is computed between the resume vector and each role vector.
 
