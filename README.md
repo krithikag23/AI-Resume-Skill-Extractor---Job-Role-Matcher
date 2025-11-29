@@ -54,4 +54,4 @@ An interactive **Streamlit** app that:
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Open the URL shown in the terminal
+Open the URL shown in the terminal, upload your resume or use the sample text,
