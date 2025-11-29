@@ -37,3 +37,4 @@ An interactive **Streamlit** app that:
       - Bar chart of similarity scores for all roles
       - Table with similarity and matched skill counts
       - Role-wise breakdown of:
+         - Skills already present in the resume
