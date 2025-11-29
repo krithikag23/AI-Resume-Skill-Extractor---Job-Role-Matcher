@@ -20,4 +20,5 @@ An interactive **Streamlit** app that:
 
 
 ## How It Works
-1. **Skill Extraction**  
+1. **Skill Extraction**
+- The app scans the resume text and detects known skills from a built-in skill vocabulary.
