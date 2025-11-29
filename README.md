@@ -50,3 +50,4 @@ An interactive **Streamlit** app that:
 - PyPDF2 (PDF parsing)
 
 ## How to Run
+```bash
