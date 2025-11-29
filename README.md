@@ -45,3 +45,4 @@ An interactive **Streamlit** app that:
 
 - Python
 - Streamlit
+- scikit-learn (TF-IDF, cosine similarity)
