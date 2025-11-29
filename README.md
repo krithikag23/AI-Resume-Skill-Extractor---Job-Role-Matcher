@@ -22,10 +22,12 @@ An interactive **Streamlit** app that:
 ## How It Works
 1. **Skill Extraction**
    - The app scans the resume text and detects known skills from a built-in skill vocabulary.
-          - One document for the resume (extracted skills)
-
+        
 2. **Role Profiles**
       - Each job role has a curated list of core skills (our built-in "dataset").
 
 3. **NLP Similarity Model**
       - We create a small corpus with:
+          - One document for the resume (extracted skills)
+          - One document per role (its skill list)
+
