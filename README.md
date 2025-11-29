@@ -23,4 +23,5 @@ An interactive **Streamlit** app that:
 1. **Skill Extraction**
    - The app scans the resume text and detects known skills from a built-in skill vocabulary.
 
-2. **Role Profiles** 
+2. **Role Profiles**
+      - Each job role has a curated list of core skills (our built-in "dataset").
