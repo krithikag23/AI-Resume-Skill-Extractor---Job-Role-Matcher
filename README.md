@@ -53,3 +53,5 @@ An interactive **Streamlit** app that:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+Open the URL shown in the terminal
