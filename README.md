@@ -20,3 +20,4 @@ An interactive **Streamlit** app that:
 
 
 ## How It Works
+1. **Skill Extraction**  
