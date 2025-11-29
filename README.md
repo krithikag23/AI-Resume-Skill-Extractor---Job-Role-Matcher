@@ -30,4 +30,5 @@ An interactive **Streamlit** app that:
       - We create a small corpus with:
           - One document for the resume (extracted skills)
           - One document per role (its skill list)
+      - A **TF-IDF Vectorizer** is trained on this corpus.
 
