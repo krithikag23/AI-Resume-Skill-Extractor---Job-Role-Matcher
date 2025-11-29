@@ -48,3 +48,5 @@ An interactive **Streamlit** app that:
 - scikit-learn (TF-IDF, cosine similarity)
 - Plotly (visualizations)
 - PyPDF2 (PDF parsing)
+
+## How to Run
