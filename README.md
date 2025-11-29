@@ -51,3 +51,4 @@ An interactive **Streamlit** app that:
 
 ## How to Run
 ```bash
+pip install -r requirements.txt
