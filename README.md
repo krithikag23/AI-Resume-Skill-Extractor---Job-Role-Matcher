@@ -44,3 +44,4 @@ An interactive **Streamlit** app that:
 ## Tech Stack
 
 - Python
+- Streamlit
